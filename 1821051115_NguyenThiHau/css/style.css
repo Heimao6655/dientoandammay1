@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gabriela', serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.section {
+    float: left;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;;
+    margin: 40px 40px;
+}
+.logo{
+    float: left;
+    width: 10%;
+    height: 60px;
+}
+.menu{
+    float: right;
+    margin-top: 12px    ;
+}
+.menu li{
+    float: left;
+    margin-left: 35px;
+    color: #000000;
+    list-style: none;
+}
+.menu li a{
+    font-size: 16px;
+    color: #000000;
+    transition: all 150ms;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.menu li a:hover{
+    color: #eb0028;
+}
+.right{
+    float: right;
+    width: 90%;
+}
+.tab-content {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+.tab-content .tab {
+    float: left;
+    padding: 20px;
+    width: 1200px;
+}
+
+.tab-content .tab.active {
+    display: block;
+}
+
+.tab-content  {
+    height: 200px;
+    width: 4800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 400ms;
+}
+
+.foooter {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+}
+
+.foooter h5{
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 0 20px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.foooter form{
+    width: 100%;
+    float: left;
+    padding: 0 400px;
+    margin-top: 20px;
+}
+.foooter input{
+    width: 90%;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 15px;
+    outline: 0;
+    float: left;
+    margin-right: -14px;
+    margin-left: 15px;
+}
